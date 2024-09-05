@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header.jumbotron {
+    background: #007bff;
+    color: white;
+}
+
+header.jumbotron h1 {
+    font-size: 3rem;
+}
+
+header.jumbotron p.lead {
+    font-size: 1.5rem;
+}
+
+section#modules .card {
+    transition: transform 0.3s;
+}
+
+section#modules .card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background: #f8f9fa;
+    border-top: 1px solid #e9ecef;
+}
+
+footer p {
+    margin: 0;
+    color: #6c757d;
+}
